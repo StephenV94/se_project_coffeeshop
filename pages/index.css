@@ -6,3 +6,12 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.header {
+  background-color: #ffffff;
+  background-image: src= "./images/background_header.svg";
+}
+
+.logo {
+  position: absolute;
+}
