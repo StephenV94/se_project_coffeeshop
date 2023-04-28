@@ -92,6 +92,10 @@
   color: #838383;
 }
 
+.header__paragraph {
+  margin: 0;
+}
+
 .header__hours {
   position: absolute;
   left: 80px;
