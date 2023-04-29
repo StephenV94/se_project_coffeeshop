@@ -49,7 +49,7 @@
   list-style-type: none;
 }
 
-.header__title_span_accent {
+.header__title_span-accent {
   font-family: "Noto Serif", Times, serif;
   font-style: italic;
   font-size: 60px;
@@ -137,6 +137,10 @@
   gap: 40px;
   padding: 80px 0 215px;
   margin: 0;
+}
+
+.recipe__iframe {
+  border: none;
 }
 
 .video__caption {
