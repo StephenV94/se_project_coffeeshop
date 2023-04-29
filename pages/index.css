@@ -43,7 +43,6 @@
   padding-right: 80px;
   margin: 30px 0 0;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -51,9 +50,8 @@
 }
 
 .header__title_span_accent {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Times, serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
@@ -63,7 +61,6 @@
   max-width: 729px;
   margin: auto 0 28px 80px;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
@@ -72,9 +69,7 @@
 .header__description {
   margin: 28px 0 0 80px;
   max-width: 683px;
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Noto Serif", Times, serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -85,7 +80,6 @@
   box-sizing: border-box;
   align-items: end;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -106,6 +100,7 @@
   position: absolute;
   bottom: 40px;
   right: 80px;
+  margin: 0;
 }
 
 .recipes {
@@ -113,7 +108,6 @@
   background-image: url(../images/background_recipes.svg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
 }
 
 .recipe__title {
@@ -121,19 +115,17 @@
   max-width: 580px;
   padding: 100px 0 0 80px;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0;
 }
 
 .recipe__subtitle {
   color: white;
-  margin: 0 0 80px 80px;
+  margin: 24px 0 0 80px;
   max-width: 438px;
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Noto Serif", Times, serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -143,7 +135,8 @@
   justify-content: center;
   list-style-type: none;
   gap: 40px;
-  padding-left: 0;
+  padding: 80px 0 215px;
+  margin: 0;
 }
 
 .video__caption {
@@ -151,11 +144,7 @@
   justify-content: space-between;
   color: white;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-}
-
-.video__time {
 }
